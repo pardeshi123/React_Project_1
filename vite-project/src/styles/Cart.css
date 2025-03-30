@@ -47,4 +47,35 @@
       transform: translateY(0);
     }
   }
+
+  /* Responsive Design */
+@media (max-width: 1024px) {
+  .container {
+      width: 95%;
+  }
+
+  .cart {
+      width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cart {
+      width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+      padding: 10px 0;
+  }
+
+  .product-grid {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .cart {
+      width: 100%;
+  }
+}
   

@@ -12,7 +12,7 @@ const ProductItem = ({ product }) => {
       <h3>{product.title}</h3>
       <p>Price: ${product.price}</p>
       <Link to={`/product/${product.id}`} style={styles.link}>View Details</Link>
-      <button onClick={() => dispatch(addToCart(product))} style={styles.button}>Add to Cart</button>
+      <button onClick={() => dispatch(addToCart(product))} style={styles.button} >Add to Cart</button>
     </div>
   );
 };
