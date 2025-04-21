@@ -1,12 +1,60 @@
-# React + Vite
+# ShoppyGlobe - A Simple E-commerce Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
+ShoppyGlobe is a simple e-commerce web application built using React and Redux. It allows users to browse products, view product details, add items to the cart, and proceed to checkout.
 
-Currently, two official plugins are available:
+## Features
+- Product listing page
+- Product detail page
+- Shopping cart functionality
+- Add/Remove items from the cart
+- Clear the cart
+- Checkout functionality
+- Responsive design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend:** React.js, Redux Toolkit, React Router, Axios
+- **Styling:** CSS
+- **State Management:** Redux Toolkit
 
-## Expanding the ESLint configuration
+## Installation
+### Prerequisites
+- Node.js (>=16.0)
+- npm or yarn
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Clone the repository
+
+git clone https://github.com/pardeshi123/React_Project_1
+cd ShoppyGlobe
+
+
+### Install dependencies
+
+npm install  # or yarn install
+
+
+### Start the development server
+
+npm start  # or yarn start
+
+
+The app will run on `http://localhost:3000/`.
+
+## Usage
+1. Browse products on the homepage.
+2. Click on a product to view its details.
+3. Add the product to the cart.
+4. Navigate to the cart page to manage items.
+5. Proceed to checkout to place an order.
+
+## Redux Store
+Redux is used for state management, and it includes:
+- **cartSlice.js**: Contains actions for adding, removing, and clearing items in the cart.
+- **store.js**: Configures the Redux store.
+
+## API Used
+This project uses `https://dummyjson.com/products` to fetch product details.
+
+## Contributing
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
